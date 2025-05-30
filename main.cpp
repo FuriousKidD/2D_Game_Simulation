@@ -52,6 +52,11 @@ int main(int argc, twoD argv)
         cout << "A: West \t D: East \t W: North \t S: South" << endl;
         cout << "E: North East \t Z: South West \t Z: South West \t C: South East" << endl;
         cout << "L: Scan" << endl;
+		cout << "Characters:" << endl;
+		cout << "^: Tree" << endl;
+		cout << "O: Drone" << endl;
+		cout << "C: Charging tower" << endl;
+		cout << "M: Treasure map" << endl;
 
         //keeps track of remaining charge
         cout << "Charge: " << intCharge << endl;
