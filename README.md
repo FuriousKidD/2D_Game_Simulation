@@ -3,9 +3,9 @@
 A terminal-based adventure simulation game written in **C++**, where you pilot a drone over a jungle terrain to locate hidden **map fragments** and assist treasure hunters in reconstructing the **Lost Nark treasure map**. Inspired by exploration strategy games, this project showcases **dynamic 2D arrays**, **resource management**, and **procedural game design** — all running in a simple command-line interface.
 ## 🎥 Project Demo
 
-| Game Start | Scanning & Collecting |
-|------------|------------------------|
-| <img width="500" alt="Start" src="https://github.com/user-attachments/assets/650ab17b-fe97-404a-99bb-23080a86fbb2" /> | <img width="527" alt="Example3-ScanFunction" src="https://github.com/user-attachments/assets/635dcc5e-8a2f-41e3-a912-49e4e83fa5b0" /> |
+| Game Start | Scanning & Collecting | Game Over |
+|------------|------------------------|------------------------|
+| <img width="500" alt="Start" src="https://github.com/user-attachments/assets/650ab17b-fe97-404a-99bb-23080a86fbb2" /> | <img width="527" alt="Example3-ScanFunction" src="https://github.com/user-attachments/assets/635dcc5e-8a2f-41e3-a912-49e4e83fa5b0" /> | <img width="596" alt="Example4-GameOver" src="https://github.com/user-attachments/assets/f042721c-395e-4240-85c7-c05151807aaf" /> |
 
 > _Screenshots simulate the drone in action, scanning forest terrain and collecting map fragments._
 ## 🌴 Game Storyline
@@ -41,5 +41,5 @@ Make sure that gcc is installed and set up into your environment
 
 
 ```bash
-g++ -std=c++11 -o lost_nark main.cpp forest.cpp drone.cpp utils.cpp
+g++ -std=c++11 -o lost_nark main.cpp forest.cpp drone.cpp
 ./lost_nark <width> <height> <tower_destruction_chance%> <num_map_pieces>
